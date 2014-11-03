@@ -1,15 +1,15 @@
-/*PAU Özgür Yazılım Topluluğunun git &amp; Github eğitimi Banka Otomasyonu projesi.*/
 #include <stdio.h>
 
-/*Prototipler*/
-void Menu();
+void bakiye_miktari();
 
-/*main fonksiyonu*/
-int main() {
-	/*code*/
-	return 0;
+void bakiye_miktari()
+{
+	int bakiye_miktari;
+	printf("Bakiyeniz = %d", bakiye_miktari);
+
 }
-/*Projenin menusu*/
-void Menu() {
-	/*code*/
-}
+int main()
+	{
+		bakiye_miktari();
+		return 0;
+	}
